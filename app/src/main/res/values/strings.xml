@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">IntelGate</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">Welcome</string>
+    <string name="sliding_tab">Sliding Tab</string>
+    <string name="to">To</string>
+    <string name="na">Name</string>
+    <string name="mn">Mobile Number</string>
+    <string name="e">Add Vehicle</string>
+    <string name="walletamt">Wallet Amount</string>
+    <string name="amt_wall">0</string>
+    <string name="wallet">Wallet Money</string>
+    <string name="add_money">Add Money</string>
+    <string name="img">img</string>
+    <string name="minus_button">Minus Button</string>
+    <string name="plus_button">Plus Button</string>
+    <string name="add_vehicle">Add Vehicle</string>
+    <string name="vehiclenumber">Vehicle Number</string>
+    <string name="scan">Scan</string>
+    <string name="PhoneNumber">Phone Number</string>
+    <string name="LisenceNumber">Lisence Number</string>
+    <string name="submit">Submit</string>
+    <string name="id">ID:</string>
+    <string name="phone_number">Phone Number:</string>
+    <string name="wallet_amount">Wallet Amount:</string>
+    <string name="lisence_number">Lisence Number:</string>
+    <string name="name">Name:</string>
+    <string name="Chasenumber">Chase Number</string>
+    <string name="notification_title">You\'ve been notified!</string>
+    <string name="notification_text">This is your notification text.</string>
+    <string name="single_or_dual">Single or dual</string>
+    <string name="nil">0</string>
+    <string name="f">fuck</string>
+</resources>

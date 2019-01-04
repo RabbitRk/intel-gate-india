@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".userProfile">
+
+    <EditText
+        android:id="@+id/pro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="VehicleNumber"
+        android:ems="10"
+        android:padding="10dp"
+        android:hint="@string/na"
+        android:layout_margin="10dp"
+        android:inputType="textPersonName"
+        tools:targetApi="o" />
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="VehicleNumber"
+        android:ems="10"
+        android:hint="@string/PhoneNumber"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        tools:targetApi="o" />
+    <EditText
+        android:id="@+id/lisence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="VehicleNumber"
+        android:ems="10"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:hint="@string/LisenceNumber"
+        android:inputType="phone"
+        tools:targetApi="o" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:onClick="saved"
+        tools:layout_editor_absoluteX="243dp"
+        tools:layout_editor_absoluteY="143dp" />
+
+
+</LinearLayout>
